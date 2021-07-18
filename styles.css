@@ -1,0 +1,119 @@
+html{
+  scroll-behavior: smooth;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+ 
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+  .headerimage{
+    
+    text-align: center;
+    color: white;
+    width: 100%;
+
+  }
+  .headerimage img{
+width: 100%;
+
+  }
+  .imagehover{
+  position: absolute;
+  left: 50%;
+  top: 20%;
+  text-align: center;
+  width: 100%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+  display: none;
+  background: black;
+  opacity: 50%;
+  color: white;
+  }
+  
+  .headerimage:hover + .imagehover {
+    display: block;
+    
+  }
+
+  .profile{
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    left: 48%;
+    
+  }
+
+  .profile p{
+    color: rgb(42, 128, 128);
+
+  }
+
+  .profile img {
+    width: auto;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2);
+    
+  }
+
+  .sofar {
+    max-width: 700px;
+    margin: auto;
+    text-align: center;
+    left: 48%;
+    color: rgb(42, 128, 128);
+  }
+  
+  .container{
+    display: flex;
+    align-items: center;
+    justify-content: center
+  }
+  .container .image{
+    
+    float: left;
+
+  }
+  .pastprojects a{
+    float: right;
+  }
+  .pastprojects p{
+    float: right;
+  }
+
+  .mypics {
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+    left: 48%;
+    color: rgb(42, 128, 128);
+  }
+
+  .mypics img{
+    width: 240px;
+    float: left;
+    display: inline-block;
+  }
